@@ -1,0 +1,17 @@
+
+{
+    "name": "Linkedin Connection Acceptor",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "logo.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": ["content.js"]
+      }
+    ]
+  }
